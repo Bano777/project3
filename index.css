@@ -1,0 +1,96 @@
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.container{
+    align-items: center;
+    flex-wrap:wrap ;
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    
+}
+
+.product-card{
+    width: 300px;
+    height: auto;
+    background-color:white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px grey;
+     margin: 70px 20px 20px 20px;
+     padding: 20px 30px;
+    
+}
+
+.pic{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    position: relative;
+    top: -90px;
+}
+
+.pic img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.pic img:hover{
+    transform: scale(1.1);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px ;
+    gap: 15px;
+
+}
+
+.btns button{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.btn1 button{
+    background-color: green;
+    color: white;
+    box-shadow: 10px 10px 20px rgb(180, 209, 180);
+}
+.btn1 button:hover{
+    background-color:gray;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.btn2 button{
+    background-color:blue;
+    color:white;
+    box-shadow: 10px 10px 20px rgb(114, 114, 179);
+}
+.btn2 button:hover{
+    background-color:gray;
+    color: white;
+    transition: 0.5s;
+}
+

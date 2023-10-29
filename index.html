@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalouge </title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+ <!-- 1.NavBar Section...!!! -->
+ <div class="h-20 bg-orange-500 flex justify-between text-white font-[Poppins] container text-1xl mx-auto px-5 items-center">
+    <div class="logo w-[70px] h-[70px] bg-white rounded-full flex justify-center items-center"><img class="w-auto h-[100px]" src="./logo-real.png" alt=""></div>
+    <div class=" text-xl hidden md:flex">
+      <a href="" class="hover:text-yellow-300  flex-column items-center px-5">All</a>
+      <a href="" class="hover:text-yellow-300  flex-column items-center px-5">Categories</a>
+      <a href="" class="hover:text-yellow-300  flex-column items- px-5">Services</a>
+      <a href="" class="hover:text-yellow-300  flex-column items-center px-5">Products</a>
+      <a href="" class="hover:text-yellow-300  flex-col items-center px-5">Contact Us</a>
+    </div>
+    <button class="bg-[#2E8B57] text-lg p-1 rounded-lg px-2 hover:bg-orange-300">Order Now</button>
+    <button class="md:hidden" id="btn"><i class="fa-solid fa-bars text-2xl"></i></button>
+</div>
+<marquee class="h-8 text-xl font-bold text-gray-800 bg-yellow-300 flex items-center font-serif" behavior="" direction="left"><em>Winter Grand Sale 2023 Upto 65% Off on All Types of shoes & Buy 1 Get 1 Free</em></marquee>
+
+<div class="container text-white bg-black mx-auto hidden" id="menu">
+<a href="" class="block hover:text-yellow-300 pl-5 py-5">All</a>
+<a href="" class="block hover:text-yellow-300 pl-5 py-5">Categories</a>
+<a href="" class="block hover:text-yellow-300 pl-5 py-5">Services</a>
+<a href="" class="block hover:text-yellow-300 pl-5 py-5">Products</a>
+<a href="" class="block hover:text-yellow-300 pl-5 py-5">Contact Us</a>
+</div>
+
+
+<script>
+ $(document).ready(function(){
+  $('#btn').click(function(){
+  $('#menu').slideToggle();
+  abc();    
+  })
+  function abc() {
+  var a ='<i class="fa-solid fa-xmark text-2xl"></i>';
+  var b ='<i class="fa-solid fa-bars text-2xl"></i>';
+
+  if($('#btn').html()===a)
+  {
+      $('#btn').html(b);
+  }
+  
+  else{
+      $('#btn').html(a);
+  }
+  }
+ });
+</script>
+
+    </section>
+         <div class="container">
+    <section class="sec-2">
+        
+                
+                    <div class="product-card">
+                        <div class="pic">
+                            <img src="./shoes2black.jpg" alt="">
+                            
+                        </div>
+                        <div class="details">
+                            <h2>
+                                PANDANINJIA Girls Heels
+                            </h2>
+                            <h3>PRICE:29$</h3>
+                            <p>
+                                Rubber sole
+Classic One-strap Girls Heels: Girls dress sandals are 1.2-inch and use non-slip and durable rubber soles, and with super-strong adhesion and strength to better protect your girls, the open-toe design keeps your girls' feet all-day comfortable and relaxed.
+                            </p>
+                            <h3>
+                                RATING
+                            </h3>
+                            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="btns">
+                                <div class="btn1"><button>Add to Cart</button></div>
+                                <div class="btn2"><button>Share</button></div>
+                             </div>
+                        </div>
+                    </div>
+                
+
+                
+    </section>
+
+    <section class="sec-3">
+        
+            <div class="product-card">
+                <div class="pic">
+                    <img src="./multishade.jpg" alt="">
+                    
+                </div>
+                <div class="details">
+                    <h2>
+                        Girls Low Heel Shoes 
+                    </h2>
+                    <h3>PRICE:28$</h3>
+                    <p>
+                        Heel height of kids pump shoes is about 1.5inch/4cm. The heel is high enough for a little girl to feel special but still easy to walk in. The toddler girls low heel shoes' design will make baby girls feel like such a big girl.Also make big girls feel elegant and beautiful,ladylike temperament.   
+                    </p>
+                    <h3>
+                        RATING
+                    </h3>
+                    <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <div class="btns">
+                        <div class="btn1"><button>Add to Cart</button></div>
+                        <div class="btn2"><button>Share</button></div>
+                     </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <section class="sec-4">
+        
+            <div class="product-card">
+                <div class="pic">
+                    <img src="./plain.jpg" alt="">
+                    
+                </div>
+                <div class="details">
+                    <h2>
+                        Girls Casual Sandals 
+                    </h2>
+                    <h3>PRICE:11.99$</h3>
+                    <p>
+                        4-In-1 Sandals: Let kids have fun with these cute Fruity sandals that are perfect for summer. Each pair comes with 4 sets of fruits (8 pieces) so kids can have fun mixing it up to style with an array of outfits. One pair of sandals so many ways to wear.
+                   </p>
+                    <h3>
+                        RATING
+                    </h3>
+                    <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                        <i class="fa-solid fa-star" ></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <div class="btns">
+                        <div class="btn1"><button>Add to Cart</button></div>
+                        <div class="btn2"><button>Share</button></div>
+                     </div>
+                </div>
+
+            </div>
+        
+    </section>
+    <section class="sec-5">
+        
+        <div class="product-card">
+            <div class="pic">
+                <img src="./boot black.jpg" alt="">
+                
+            </div>
+            <div class="details">
+                <h2>
+                    Girls Youth Athletic Fashion Sneakers
+                </h2>
+                <h3>PRICE:32.99$</h3>
+                <p>
+                    Rubber sole
+                    Slip-On Sneakers
+                    Sole / Padding: Treaded non-skid sole / cushioned foot bed with padded insole
+                    Perfect For Walking, Jogging And Very Comfort
+               </p>
+                <h3>
+                    RATING
+                </h3>
+                <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                 </div>
+                 <div class="btns">
+                    <div class="btn1"><button>Add to Cart</button></div>
+                    <div class="btn2"><button>Share</button></div>
+                 </div>
+            </div>
+        </div>
+    
+</section>
+
+<section class="sec-6">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./boot pink.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Child Twinkle Toes Sparkle Lite
+            </h2>
+            <h3>PRICE:40$</h3>
+            <p>
+                Imported
+Rubber sole
+Shaft measures approximately low-top from arch
+On/off light switch
+Canvas and glitter finish fabric upper with rainbow, unicorn and star graphics
+Slip-on style with stretch laces and an adjustable instep strap
+Cushioned insol
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-7">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./boot blue.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                New Balance Kid's Lace-up Sneaker
+            </h2>
+            <h3>PRICE:70$</h3>
+            <p>
+                Imported
+Rubber sole
+Sturdy synthetic upper
+Durable rubber outsole
+Adjustable lace closure for a customized fit
+Available in a range of seasonal colorsThe synthetic upper is built for comfort, while the rubber outsole adds durability no matter where their little feet wander.
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-8">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./mud boots.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Mud Boots Lightweight Slip-on Garden 
+            </h2>
+            <h3>PRICE:41$</h3>
+            <p>
+                Rubber sole
+Splash Resistant - Featuring a neoprene upper and rubber granules to protect against light water and mud, ensuring you can tackle household and gardening tasks with ease.Light & Cool - Constructed with lightweight and breathable materials, TENGTA mud boots keep your feet comfortable
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-9">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./brown boots.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Women's Hethrow Genuine Suede pull on boot 
+            </h2>
+            <h3>PRICE:49$</h3>
+            <p>
+                Rubber sole
+Shaft measures approximately 3.5 inches from arch
+Heel measures approximately 3.5 inches"
+Soft Premium Genuine Suede upperSlip-on wear
+Soft Faux shearling lining and Memory Foam Insoles.
+
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="sec-10">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./green boot.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Rain Boots for Women, Waterproof Garden Boots
+            </h2>
+            <h3>PRICE:23$</h3>
+            <p>
+                】Our garden boots made with seamless construction, more durable than normal rain boots. 100% waterproof and heat retention.You can visit outdoor anywhere without worrying about your rainboots getting wet in the puddles, rainy day, muck, water, grass or yard
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-11">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./white sliper.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Fuzzy Memory Foam Slippers Cross Band Cozy Plush
+            </h2>
+            <h3>PRICE:19$</h3>
+            <p>
+                Our women house slippers come in 4 sizes size 5-6 (Heel to Toe 23.2-24.3cm) , 7-8 (Heel to Toe24.4-25.6cm), 9-10 (Heel to Toe 25.7-26.8cm), 11-12(Heel to Toe 26.9-28.1cm)could fit all standard or wide feet.
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-12">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./brown sliper.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                Donpapa Womens Slipper Memory Foam Fluffy Soft Warm Slip
+            </h2>
+            <h3>PRICE:25$</h3>
+            <p>
+                WARM AND COMFORTABLE: Warm and breathable upper with comfortable fluffy lining that gently wraps your feet for extreme warmth and comfort.Eco-friendly thick plush fleece and breathable cotton keeps away from coldness.
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-13">
+        
+    <div class="product-card">
+        <div class="pic">
+            <img src="./purple sliper.jpg" alt="">
+            
+        </div>
+        <div class="details">
+            <h2>
+                HomeTop Women's Fuzzy Curly Fur Memory Foam Loafer Slippers
+            </h2>
+            <h3>PRICE:22$</h3>
+            <p>
+                SOFT FURRY CURLY FUR UPPER indulges your feet in the feeling of hugging a cute poodle and enhances the comfort in cold weather, hand and machine washable. Classic slip-on loafer shoes.
+
+           </p>
+            <h3>
+                RATING
+            </h3>
+            <div class="stars"><i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                <i class="fa-solid fa-star" style="color:  goldenrod;"></i>
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <div class="btns">
+                <div class="btn1"><button>Add to Cart</button></div>
+                <div class="btn2"><button>Share</button></div>
+             </div>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+ <!-- Footer Section -->
+ <footer class="text-gray-600 ">
+    <div class="container px-5 py-24 mx-auto bg-orange-500 text-white flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+       <!-- logo section -->
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center">
+            <div class="logo w-[70px] h-[70px] bg-white rounded-full flex justify-center items-center"><img class="w-auto h-[100px]" src="./logo-real.png" alt=""></div>
+
+          <span class="ml-3 text-2xl">Shoe Shop</span>
+        </a>
+      </div>
+    
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+           <!-- Category1 -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold tracking-widest text-2xl mb-3">Get to Know Us</h2>
+          <nav class="list-none mb-10 font-medium text-lg">
+            <li>
+              <a class="">Career</a>
+            </li>
+            <li>
+              <a class="">Accesibility</a>
+            </li>
+            <li>
+              <a class="">New Settler</a>
+            </li>
+            <li>
+              <a class="">Sustainability</a>
+            </li>
+          </nav>
+        </div>
+           <!-- Category2 -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold tracking-widest text-2xl mb-3">Make Money with Us</h2>
+          <nav class="list-none mb-10 font-medium text-lg">
+            <li>
+              <a class="">Sell More with Us</a>
+            </li>
+            <li>
+              <a class="">Supply to Our Shop</a>
+            </li>
+            <li>
+              <a class="">Become an Affliate</a>
+            </li>
+            <li>
+              <a class="">Self-Publish with Us</a>
+            </li>
+          </nav>
+        </div>
+           <!-- Category3 -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold tracking-widest text-2xl mb-3">Popular Category</h2>
+          <nav class="list-none mb-10 font-medium text-lg">
+            <li>
+              <a class="">Heels</a>
+            </li>
+            <li>
+              <a class="">Sneakers</a>
+            </li>
+            <li>
+              <a class="">Slippers</a>
+            </li>
+            <li>
+              <a class="">Many More</a>
+            </li>
+          </nav>
+        </div>
+           <!-- Category4 -->
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class=" tracking-widest text-2xl font-bold mb-3">Contact Us</h2>
+          <nav class="list-none mb-10 font-medium text-lg flex gap-3">
+            <li>
+              <a class=""><i class="fa-brands fa-facebook text-3xl hover:text-[#3b5998]"></i></a>
+            </li>
+            <li>
+              <a class=""><i class="fa-brands fa-instagram text-3xl hover:text-[#d62976]"></i></a>
+            </li>
+            <li>
+              <a class=""><i class="fa-brands fa-linkedin text-3xl hover:text-[#0072b1]"></i></a>
+            </li>
+            <li>
+              <a class=""><i class="fa-solid fa-phone text-3xl hover:text-[#2E8B57]"></i></a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="container mx-auto py-4 px-5 flex justify-center items-center flex-wrap flex-col sm:flex-row bg-orange-500 text-white">
+        <p class=" text-sm text-center sm:text-left">© 2023 Shoe Shop—
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class=" ml-1" target="_blank">@WebDesigner@BM</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+    
+</body>
+</html>
